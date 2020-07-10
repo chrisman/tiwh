@@ -12,7 +12,14 @@
 <ul>
 <li>See small scale trends in temperature / weather changes</li>
 </ul>
-<h2 id="getting-started">Getting Started</h2>
+<h2 id="usage">Usage</h2>
+<p><strong>wip</strong></p>
+<ul>
+<li>GET <code>api/v1/locations/</code>: Get a list of all local WOEID / description (city name) pairs</li>
+<li>GET <code>api/v1/search/&lt;string&gt;</code>: Where <string> is the name of a city, return its local OEID, or return it from metaweather</li>
+<li>GET <code>api/v1/weather/&lt;id&gt;</code>: Where <id> is an OEID, return the historical weather data from cache if avaliable, else from metaweather</li>
+</ul>
+<h2 id="development">Development</h2>
 <h3 id="dependencies">Dependencies</h3>
 <ul>
 <li>Ruby version 2.7.1</li>

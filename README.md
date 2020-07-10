@@ -17,7 +17,15 @@ The return object will be the weather for today's date up each year up to five y
 
 - See small scale trends in temperature / weather changes
 
-## Getting Started
+## Usage
+
+**wip**
+
+- GET `api/v1/locations/`: Get a list of all local WOEID / description (city name) pairs
+- GET `api/v1/search/<string>`: Where <string> is the name of a city, return its local OEID, or return it from metaweather
+- GET `api/v1/weather/<id>`: Where <id> is an OEID, return the historical weather data from cache if avaliable, else from metaweather
+
+## Development
 
 ### Dependencies
 
